@@ -1,0 +1,49 @@
+[1.069s] Invoking command in '/home/nitzz/my_warehouse_project/src/warehouse_py_pkg': PYTHONPATH=/home/nitzz/my_warehouse_project/build/warehouse_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_py_pkg build --build-base /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build install --record /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/install.log --single-version-externally-managed install_data
+[1.300s] running egg_info
+[1.300s] creating ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info
+[1.301s] writing ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/PKG-INFO
+[1.301s] writing dependency_links to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/dependency_links.txt
+[1.301s] writing entry points to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/entry_points.txt
+[1.301s] writing requirements to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/requires.txt
+[1.301s] writing top-level names to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/top_level.txt
+[1.301s] writing manifest file '../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/SOURCES.txt'
+[1.303s] reading manifest file '../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/SOURCES.txt'
+[1.303s] writing manifest file '../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/SOURCES.txt'
+[1.303s] running build
+[1.303s] running build_py
+[1.303s] creating /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build
+[1.303s] creating /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib
+[1.303s] creating /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.303s] copying warehouse_py_pkg/testing1.py -> /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.303s] copying warehouse_py_pkg/__init__.py -> /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.303s] copying warehouse_py_pkg/robot_process.py -> /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.303s] copying warehouse_py_pkg/process_controller.py -> /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.303s] copying warehouse_py_pkg/testing.py -> /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.303s] copying warehouse_py_pkg/warehouse_manager.py -> /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg
+[1.304s] running install
+[1.304s] running install_lib
+[1.304s] creating /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.304s] copying /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg/testing1.py -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.304s] copying /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg/__init__.py -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.304s] copying /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg/robot_process.py -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.304s] copying /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg/process_controller.py -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.304s] copying /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg/testing.py -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.304s] copying /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build/lib/warehouse_py_pkg/warehouse_manager.py -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg
+[1.305s] byte-compiling /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg/testing1.py to testing1.cpython-310.pyc
+[1.305s] byte-compiling /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.305s] byte-compiling /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg/robot_process.py to robot_process.cpython-310.pyc
+[1.306s] byte-compiling /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg/process_controller.py to process_controller.cpython-310.pyc
+[1.306s] byte-compiling /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg/testing.py to testing.cpython-310.pyc
+[1.307s] byte-compiling /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg/warehouse_manager.py to warehouse_manager.cpython-310.pyc
+[1.307s] running install_data
+[1.308s] creating /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/share/ament_index
+[1.308s] creating /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/share/ament_index/resource_index
+[1.308s] creating /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/share/ament_index/resource_index/packages
+[1.308s] copying resource/warehouse_py_pkg -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/share/ament_index/resource_index/packages
+[1.308s] copying package.xml -> /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/share/warehouse_py_pkg
+[1.308s] running install_egg_info
+[1.309s] Copying ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info to /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg-0.0.0-py3.10.egg-info
+[1.310s] running install_scripts
+[1.323s] Installing process_controller script to /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/warehouse_py_pkg
+[1.323s] writing list of installed files to '/home/nitzz/my_warehouse_project/build/warehouse_py_pkg/install.log'
+[1.342s] Invoked command in '/home/nitzz/my_warehouse_project/src/warehouse_py_pkg' returned '0': PYTHONPATH=/home/nitzz/my_warehouse_project/build/warehouse_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_py_pkg build --build-base /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build install --record /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,49 @@
+[0.442s] Invoking command in '/home/nitzz/my_warehouse_project/build/pick_and_place_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake /home/nitzz/my_warehouse_project/src/pick_and_place/pick_and_place_simulation -DCMAKE_INSTALL_PREFIX=/home/nitzz/my_warehouse_project/install/pick_and_place_simulation
+[0.486s] -- The C compiler identification is GNU 9.5.0
+[0.522s] -- The CXX compiler identification is GNU 9.5.0
+[0.527s] -- Detecting C compiler ABI info
+[0.577s] -- Detecting C compiler ABI info - done
+[0.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.586s] -- Detecting C compile features
+[0.586s] -- Detecting C compile features - done
+[0.590s] -- Detecting CXX compiler ABI info
+[0.648s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.653s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.656s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.794s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.880s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.959s] -- Added test 'lint_cmake' to check CMake code style
+[0.960s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.961s] -- Added test 'xmllint' to check XML markup files
+[0.962s] -- Configuring done
+[0.964s] -- Generating done
+[0.965s] -- Build files have been written to: /home/nitzz/my_warehouse_project/build/pick_and_place_simulation
+[0.969s] Invoked command in '/home/nitzz/my_warehouse_project/build/pick_and_place_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake /home/nitzz/my_warehouse_project/src/pick_and_place/pick_and_place_simulation -DCMAKE_INSTALL_PREFIX=/home/nitzz/my_warehouse_project/install/pick_and_place_simulation
+[0.970s] Invoking command in '/home/nitzz/my_warehouse_project/build/pick_and_place_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --build /home/nitzz/my_warehouse_project/build/pick_and_place_simulation -- -j16 -l16
+[1.000s] Invoked command in '/home/nitzz/my_warehouse_project/build/pick_and_place_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --build /home/nitzz/my_warehouse_project/build/pick_and_place_simulation -- -j16 -l16
+[1.019s] Invoking command in '/home/nitzz/my_warehouse_project/build/pick_and_place_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --install /home/nitzz/my_warehouse_project/build/pick_and_place_simulation
+[1.026s] -- Install configuration: ""
+[1.026s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/world
+[1.026s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/world/conveyorbeltt.world
+[1.026s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/world/gym.world
+[1.026s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/launch
+[1.026s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/launch/start_simulation.launch.py
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/ament_index/resource_index/package_run_dependencies/pick_and_place_simulation
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/ament_index/resource_index/parent_prefix_path/pick_and_place_simulation
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/environment/ament_prefix_path.sh
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/environment/ament_prefix_path.dsv
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/environment/path.sh
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/environment/path.dsv
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/local_setup.bash
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/local_setup.sh
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/local_setup.zsh
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/local_setup.dsv
+[1.027s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/package.dsv
+[1.028s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/ament_index/resource_index/packages/pick_and_place_simulation
+[1.028s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/cmake/pick_and_place_simulationConfig.cmake
+[1.028s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/cmake/pick_and_place_simulationConfig-version.cmake
+[1.028s] -- Installing: /home/nitzz/my_warehouse_project/install/pick_and_place_simulation/share/pick_and_place_simulation/package.xml
+[1.030s] Invoked command in '/home/nitzz/my_warehouse_project/build/pick_and_place_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --install /home/nitzz/my_warehouse_project/build/pick_and_place_simulation

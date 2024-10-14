@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.4">
+
+    <model name="conveyor_beltt">
+    <material name="blue">
+        <color rgba="0 0 0.5 1" />
+    </material>
+
+        <model name="conveyorbelt_fixed">
+        
+	    <pose>-0.6 0.5 0.13 1.571 0 0</pose>
+	 <!--   <pose>-0.6 0.5 0 1.571 0 0</pose> -->
+            <static>true</static>
+
+            <link name="belt_visual">
+                <visual name="visual">
+                    <geometry>
+                        <mesh>
+                            <scale>1 1 1</scale>
+                            <uri>model://conveyorbeltt/meshes/base_link.STL</uri>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <collision name="collision">
+                    <origin xyz="0.0 0.0 0" rpy="0.0 0.0 0.0"/>
+                    <geometry>
+                        <mesh>
+                            <scale>1 1 1</scale>
+                            <uri>model://conveyorbeltt/meshes/base_link.STL</uri>
+                        </mesh>
+                    </geometry>
+                </collision>
+            </link>
+
+        </model>
+
+        <model name="conveyorbelt_moving">
+
+            <allow_auto_disable>0</allow_auto_disable>
+            <static>false</static>
+
+          <!--  <pose>-0.6 0.5 0.335 0 0 1.571</pose>  -->
+            <pose>-0.6 0.5 0.465 0 0 1.571</pose>
+	    <gazebo reference="conveyorbelt_moving">
+        	<material>Gazebo/Blue</material>
+    	    </gazebo>
+            <link name="belt_moving">
+                <inertial>
+                    <mass>100.0</mass>
+                    <inertia>
+                        <ixx>0.0</ixx>
+                        <ixy>0.0</ixy>
+                        <ixz>0.0</ixz>
+                        <iyy>0.0</iyy>
+                        <iyz>0.0</iyz>
+                        <izz>0.0</izz>
+                    </inertia>
+                </inertial>
+                <collision name="belt_collision">
+                    <geometry>
+                        <box>
+                            <size>0.59 1.41 0.00001</size>
+                        </box>
+                    </geometry>
+                    <surface>
+                        <friction>
+                            <ode>
+                                <mu>100.0</mu>
+                                <mu2>100.0</mu2>
+                            </ode>
+                            <torsional>
+                                <coefficient>10.0</coefficient>
+                                <patch_radius>0.1</patch_radius>
+                            </torsional>
+                        </friction>
+                    </surface>
+                </collision>
+
+                <!-- Added Red Color for this Box -->
+                <visual name="belt_visual">
+                    <geometry>
+                        <box>
+                            <size>0.59 1.41 0.00001</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1 0 0 1</ambient> <!-- Red Color -->
+                        <diffuse>1 0 0 1</diffuse> <!-- Red Color -->
+                        <specular>0.5 0.5 0.5 1</specular> <!-- Specular reflection -->
+                        <emissive>0 0 0 1</emissive> <!-- No emissive lighting -->
+                    </material>
+                </visual>
+                
+            </link>
+            <gazebo reference="belt_moving">
+                <material>Gazebo/Blue</material>
+    	    </gazebo>
+
+        </model>
+
+        <joint name="belt_joint" type="prismatic">
+            <parent>conveyorbelt_fixed::belt_visual</parent>
+            <child>conveyorbelt_moving::belt_moving</child>
+            <axis>
+                <xyz>1 0 0</xyz>
+                <limit>
+                    <lower>0.0</lower>
+                    <upper>0.01</upper>
+                </limit>
+            </axis>
+        </joint>
+
+        <plugin name="ros2_conveyorbelt_plugin" filename="libros2_conveyorbelt_plugin.so" >
+            <ros>
+                <namespace></namespace>
+            </ros>
+            <max_velocity>1.0</max_velocity>
+            <publish_rate>1000</publish_rate>
+        </plugin>
+
+    </model>
+
+</sdf>
+

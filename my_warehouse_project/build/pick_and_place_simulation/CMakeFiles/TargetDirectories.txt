@@ -1,0 +1,9 @@
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/uninstall.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/pick_and_place_simulation_uninstall.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/test.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/edit_cache.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/rebuild_cache.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/list_install_components.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/install.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/install/local.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_simulation/CMakeFiles/install/strip.dir

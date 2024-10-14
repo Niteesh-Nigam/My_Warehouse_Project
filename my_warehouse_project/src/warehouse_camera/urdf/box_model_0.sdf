@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="box0">
+
+    <link name="box">
+      <!-- Collision properties -->
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <static>false</static>
+        <geometry>
+          <box>
+            <size>0.75 1.5 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <!-- Visual for the orange box -->
+      <visual name="visual_orange_box">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.75 1.5 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 0.5 0 1</ambient>  <!-- Orange color -->
+          <diffuse>1 0.5 0 1</diffuse>  <!-- Orange color -->
+        </material>
+      </visual>
+
+      <!-- Visual for the barcode on the top face with a material script -->
+      <visual name="visual_barcode">
+        <pose>-0.25 -0.5 0.025 0 0 0</pose>  <!-- Positioned on top of the box -->
+        <geometry>
+          <plane>
+            <size>0.2 0.1</size>
+          </plane>
+        </geometry>
+        <material>
+          <script> 
+            <uri>model://materials/scripts</uri>
+            <uri>model://materials/textures</uri>
+            <name>face/Image</name> <!-- Reference to the custom material -->
+          </script>
+        </material>
+      </visual>
+
+      <!-- Inertial properties -->
+      <inertial>
+        <mass>1.9121704081632653</mass>
+        <inertia>
+          <ixx>0.35893032036564626</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.4481649394132653</iyy>
+          <iyz>0</iyz>
+          <izz>0.09003135671768706</izz>
+        </inertia>
+      </inertial>
+
+    </link>
+
+    <!-- Gazebo-specific properties -->
+    <plugin name="gazebo" filename="libgazebo_ros.so">
+      <material>Gazebo/Orange</material>
+      <mu1>100.0</mu1>
+      <mu2>100.0</mu2>
+      <self_collide>false</self_collide>
+    </plugin>
+
+  </model>
+</sdf>

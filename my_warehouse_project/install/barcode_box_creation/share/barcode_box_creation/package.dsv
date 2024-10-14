@@ -1,0 +1,8 @@
+source;share/barcode_box_creation/hook/cmake_prefix_path.ps1
+source;share/barcode_box_creation/hook/cmake_prefix_path.dsv
+source;share/barcode_box_creation/hook/cmake_prefix_path.sh
+source;share/barcode_box_creation/local_setup.bash
+source;share/barcode_box_creation/local_setup.dsv
+source;share/barcode_box_creation/local_setup.ps1
+source;share/barcode_box_creation/local_setup.sh
+source;share/barcode_box_creation/local_setup.zsh

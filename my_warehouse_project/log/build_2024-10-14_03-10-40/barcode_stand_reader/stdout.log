@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/barcode_stand_reader/barcode_stand_reader.egg-info
+writing ../../build/barcode_stand_reader/barcode_stand_reader.egg-info/PKG-INFO
+writing dependency_links to ../../build/barcode_stand_reader/barcode_stand_reader.egg-info/dependency_links.txt
+writing entry points to ../../build/barcode_stand_reader/barcode_stand_reader.egg-info/entry_points.txt
+writing requirements to ../../build/barcode_stand_reader/barcode_stand_reader.egg-info/requires.txt
+writing top-level names to ../../build/barcode_stand_reader/barcode_stand_reader.egg-info/top_level.txt
+writing manifest file '../../build/barcode_stand_reader/barcode_stand_reader.egg-info/SOURCES.txt'
+reading manifest file '../../build/barcode_stand_reader/barcode_stand_reader.egg-info/SOURCES.txt'
+writing manifest file '../../build/barcode_stand_reader/barcode_stand_reader.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build
+creating /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build/lib
+creating /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build/lib/barcode_stand_reader
+copying barcode_stand_reader/__init__.py -> /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build/lib/barcode_stand_reader
+copying barcode_stand_reader/camera_cv2.py -> /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build/lib/barcode_stand_reader
+running install
+running install_lib
+creating /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/python3.10/site-packages/barcode_stand_reader
+copying /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build/lib/barcode_stand_reader/__init__.py -> /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/python3.10/site-packages/barcode_stand_reader
+copying /home/nitzz/my_warehouse_project/build/barcode_stand_reader/build/lib/barcode_stand_reader/camera_cv2.py -> /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/python3.10/site-packages/barcode_stand_reader
+byte-compiling /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/python3.10/site-packages/barcode_stand_reader/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/python3.10/site-packages/barcode_stand_reader/camera_cv2.py to camera_cv2.cpython-310.pyc
+running install_data
+creating /home/nitzz/my_warehouse_project/install/barcode_stand_reader/share/ament_index
+creating /home/nitzz/my_warehouse_project/install/barcode_stand_reader/share/ament_index/resource_index
+creating /home/nitzz/my_warehouse_project/install/barcode_stand_reader/share/ament_index/resource_index/packages
+copying resource/barcode_stand_reader -> /home/nitzz/my_warehouse_project/install/barcode_stand_reader/share/ament_index/resource_index/packages
+copying package.xml -> /home/nitzz/my_warehouse_project/install/barcode_stand_reader/share/barcode_stand_reader
+running install_egg_info
+Copying ../../build/barcode_stand_reader/barcode_stand_reader.egg-info to /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/python3.10/site-packages/barcode_stand_reader-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_cv2 script to /home/nitzz/my_warehouse_project/install/barcode_stand_reader/lib/barcode_stand_reader
+writing list of installed files to '/home/nitzz/my_warehouse_project/build/barcode_stand_reader/install.log'

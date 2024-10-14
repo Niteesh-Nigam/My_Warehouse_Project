@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="hollow_box_with_sensor">
+    <static>false</static>  <!-- Box can move dynamically -->
+    
+    <!-- Main Link for the Box -->
+    <link name="box_body">
+      <inertial>
+        <mass>5.0</mass>
+        <inertia>
+          <ixx>1.0</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>1.0</iyy> <iyz>0.0</iyz> <izz>1.0</izz>
+        </inertia>
+      </inertial>
+
+      <!-- Bottom of the Box -->
+      <visual name="bottom_visual">
+        <geometry>
+          <box>
+            <size>1.0 1.0 0.05</size>  <!-- Thin bottom layer -->
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient>  <!-- Blueish color -->
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+        <pose>0 0 -0.225 0 0 0</pose>  <!-- Positioned at the bottom -->
+      </visual>
+
+      <collision name="bottom_collision">
+        <geometry>
+          <box>
+            <size>1.0 1.0 0.05</size>  <!-- Bottom collision size -->
+          </box>
+        </geometry>
+        <pose>0 0 -0.225 0 0 0</pose>  <!-- Positioned at the bottom -->
+      </collision>
+
+      <!-- Front Wall -->
+      <visual name="front_wall_visual">
+        <geometry>
+          <box>
+            <size>1.0 0.05 0.5</size>  <!-- Front wall size -->
+          </box>
+        </geometry>
+        <pose>0 0.475 0 0 0 0</pose>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Back Wall -->
+      <visual name="back_wall_visual">
+        <geometry>
+          <box>
+            <size>1.0 0.05 0.5</size>  <!-- Back wall size -->
+          </box>
+        </geometry>
+        <pose>0 -0.475 0 0 0 0</pose>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Left Wall -->
+      <visual name="left_wall_visual">
+        <geometry>
+          <box>
+            <size>0.05 1.0 0.5</size>  <!-- Left wall size -->
+          </box>
+        </geometry>
+        <pose>-0.475 0 0 0 0 0</pose>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Right Wall -->
+      <visual name="right_wall_visual">
+        <geometry>
+          <box>
+            <size>0.05 1.0 0.5</size>  <!-- Right wall size -->
+          </box>
+        </geometry>
+        <pose>0.475 0 0 0 0 0</pose>
+        <material>
+          <ambient>0.1 0.1 0.8 1</ambient>
+          <diffuse>0.1 0.1 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Midpoint Contact Sensor -->
+      <sensor name="midpoint_sensor" type="contact">
+        <pose>0 0 0 0 0 0</pose>  <!-- Midpoint of the box height -->
+        <update_rate>10</update_rate>
+        <contact>
+          <collision>sensor_collision</collision>  <!-- Detects placed objects -->
+        </contact>
+
+        <!-- Sensor Plugin -->
+        <plugin name="contact_sensor_plugin" filename="libgazebo_ros_bumper.so">
+          <ros>
+            <namespace>/box</namespace>  <!-- ROS namespace -->
+          </ros>
+          <topicName>/box/sensor_contacts</topicName>  <!-- ROS topic -->
+        </plugin>
+      </sensor>
+
+      <collision name="sensor_collision">
+        <geometry>
+          <box>
+            <size>0.8 0.8 0.05</size>  <!-- Sensor is smaller than the box -->
+          </box>
+        </geometry>
+        <pose>0 0 0 0 0 0</pose>  <!-- Positioned at the midpoint of height -->
+      </collision>
+    </link>
+
+    <!-- Spawn the Box Above the Ground -->
+    <pose>-0.706394 -0.369733 0.458693 0 0 0</pose>
+  </model>
+</sdf>
+

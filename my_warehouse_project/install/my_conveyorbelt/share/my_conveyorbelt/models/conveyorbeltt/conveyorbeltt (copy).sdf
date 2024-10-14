@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.6">
+
+    <model name="conveyorbeltt">
+
+        <!-- Fixed part of the conveyor belt -->
+        <model name="conveyorbelt_fixed">
+            <static>true</static>
+
+            <link name="base_link">
+                <inertial>
+                    <pose>-1.11651176466313E-18 0.266564075692784 3.94566909880437E-16 1.571 0 0</pose>
+                    <mass>83.1229091372459</mass>
+                    <inertia>
+                        <ixx>4.64074022348345</ixx>
+                        <ixy>1.18608232370089E-15</ixy>
+                        <ixz>-8.12699324358207E-15</ixz>
+                        <iyy>19.2546775470884</iyy>
+                        <iyz>-5.65203621587783E-16</iyz>
+                        <izz>15.3838944016174</izz>
+                    </inertia>
+                </inertial>
+                <visual name="base_link_visual">
+                    <pose>0 0 0 1.571 0 0</pose>
+                    <geometry>
+                        <mesh>
+                            <scale>1 1 1</scale>
+                            <uri>model://conveyorbeltt/meshes/base_link.STL</uri>
+                        </mesh>
+                    </geometry>
+                    <material>
+                        <ambient>0.792 0.820 0.933 1</ambient>
+                        <diffuse>0.792 0.820 0.933 1</diffuse>
+                    </material>
+                </visual>
+                <collision name="base_link_collision">
+                    <pose>0 0 0 1.571 0 0</pose>
+                    <geometry>
+                        <mesh>
+                            <scale>1 1 1</scale>
+                            <uri>model://conveyorbeltt/meshes/base_link.STL</uri>
+                        </mesh>
+                    </geometry>
+                </collision>
+            </link>
+
+        </model>
+
+        <!-- Moving part of the conveyor belt -->
+        <model name="conveyorbelt_moving">
+            <static>false</static>
+            <pose>0 0 0 1.571 0 0</pose>
+
+            <link name="hidden_layer">
+                <inertial>
+                    <pose>0 0 0 1.571 0 0</pose>
+                    <mass>8.64000000024845E-05</mass>
+                    <inertia>
+                        <ixx>2.59200000007461E-06</ixx>
+                        <ixy>2.25151295671931E-38</ixy>
+                        <ixz>-2.03185470839285E-21</ixz>
+                        <iyy>1.75219200005038E-05</iyy>
+                        <iyz>-2.20581496734181E-29</iyz>
+                        <izz>1.49299200004294E-05</izz>
+                    </inertia>
+                </inertial>
+                <collision name="hidden_layer_collision">
+                    <pose>0 0 0 1.571 0 0</pose>
+                    <geometry>
+                        <mesh>
+                            <uri>model://conveyorbeltt/meshes/hidden_layer.STL</uri>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <!-- Hidden visual layer can be disabled if needed -->
+               
+                <visual name="hidden_layer_visual">
+                    <pose>0 0 0 1.571 0 0</pose>
+                    <geometry>
+                        <mesh>
+                            <uri>model://conveyorbeltt/meshes/hidden_layer.STL</uri>
+                        </mesh>
+                    </geometry>
+                </visual>
+                
+            </link>
+
+        </model>
+
+        <!-- Joint between fixed and moving parts -->
+        <joint name="belt_joint" type="prismatic">
+            <parent>conveyorbelt_fixed::base_link</parent>
+            <child>conveyorbelt_moving::hidden_layer</child>
+            <axis>
+                <xyz>1 0 0</xyz>
+                <limit>
+                    <lower>0.0</lower>
+                    <upper>0.01</upper>
+                </limit>
+            </axis>
+        </joint>
+
+        <!-- Plugin for conveyor belt behavior -->
+        <plugin name="ros2_conveyorbelt_plugin" filename="libros2_conveyorbelt_plugin.so">
+            <ros>
+                <namespace></namespace>
+            </ros>
+            <max_velocity>1.0</max_velocity>
+            <publish_rate>1000</publish_rate>
+        </plugin>
+
+    </model>
+
+</sdf>
+

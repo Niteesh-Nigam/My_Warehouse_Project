@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="red_plane_sensor">
+    <static>true</static>  <!-- Plane is static -->
+    <link name="red_plane_link">
+      <visual name="visual">
+        <geometry>
+          <box> <!-- Use a box instead of plane for better control -->
+            <size>0.05 0.5 0.0001</size>  <!-- Add some thickness to the plane -->
+          </box>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1</ambient>  <!-- Red color -->
+          <diffuse>0 0 1 1</diffuse>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box> <!-- Use a box instead of plane for better control -->
+            <size>0.05 0.5 0.0001</size>  <!-- Add some thickness to the plane -->
+          </box>
+        </geometry>
+      </collision>
+      <sensor name="red_plane_contact_sensor" type="contact">
+        <update_rate>10</update_rate>
+        <contact>
+          <collision>collision</collision>
+        </contact>
+        <plugin name="red_plane_contact_plugin" filename="libgazebo_ros_bumper.so">
+          <ros>
+            <namespace>/red_plane</namespace>
+          </ros>
+          <topicName>/red_plane/bumper_states</topicName>
+        </plugin>
+      </sensor>
+    </link>
+    <pose>0.08 0.5 0.47 0 0 0</pose>  <!-- Custom position on the conveyor belt -->
+  </model>
+</sdf>
+

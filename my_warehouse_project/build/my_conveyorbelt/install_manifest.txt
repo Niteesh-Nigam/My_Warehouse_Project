@@ -1,0 +1,25 @@
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/conveyorbeltt.sdf
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/storage_cart.sdf
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/conveyorbeltt (copy).sdf
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes/base_link.STL
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes/hidden_layer.STL
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/model.config
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/red_plane_sensor.sdf
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/worlds/conveyorbeltt.world
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf/box_model_0.sdf
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf/box.urdf
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/my_conveyorbelt
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/my_conveyorbelt
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/ament_prefix_path.sh
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/ament_prefix_path.dsv
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/path.sh
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/path.dsv
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.bash
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.sh
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.zsh
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.dsv
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/package.dsv
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/packages/my_conveyorbelt
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/cmake/my_conveyorbeltConfig.cmake
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/cmake/my_conveyorbeltConfig-version.cmake
+/home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/package.xml

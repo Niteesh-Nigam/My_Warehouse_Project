@@ -1,0 +1,3 @@
+[console_scripts]
+camera_cv2 = barcode_stand_reader.camera_cv2:main
+

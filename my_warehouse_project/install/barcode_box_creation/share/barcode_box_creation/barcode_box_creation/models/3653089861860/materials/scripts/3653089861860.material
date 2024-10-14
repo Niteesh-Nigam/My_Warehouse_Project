@@ -1,0 +1,13 @@
+material 3653089861860
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture 3653089861860.png
+            }
+        }
+    }
+}

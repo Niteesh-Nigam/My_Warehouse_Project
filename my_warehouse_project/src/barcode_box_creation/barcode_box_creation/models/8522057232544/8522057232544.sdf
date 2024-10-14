@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="8522057232544">
+    <static>false</static>  <!-- Ensure the model is dynamic -->
+
+    <link name="box_link">
+      <!-- Inertial properties -->
+      <inertial>
+        <mass>0.0843</mass>
+        <inertia>
+          <ixx>0.000020352</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000031373</iyy>
+          <iyz>0</iyz>
+          <izz>0.000036967</izz>
+        </inertia>
+      </inertial>
+
+      <!-- Collision Properties -->
+      <collision name="box_collision">
+        <pose>0 0 0 0 0 0</pose>  <!-- Aligned with the box -->
+        <geometry>
+          <box>
+            <size>0.229751 0.162283 0.113616</size>  <!-- Same size as the box -->
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <soft_cfm>0.0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+
+      <!-- Visual for the Box -->
+      <visual name="box_visual">
+        <pose>0 0 0 0 0 0</pose>  <!-- Align with collision -->
+        <geometry>
+          <box>
+            <size>0.3 0.15 0.113616</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 0.5 0 1</ambient>  <!-- Orange color -->
+          <diffuse>1 0.5 0 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Barcode Visual (Slightly Above Top Face to Avoid Interference) -->
+      <visual name="barcode_visual">
+        <pose>0 0 0.057 0 0 0</pose>  <!-- Slightly offset to avoid z-fighting -->
+        <geometry>
+          <plane>
+            <size>0.2 0.15</size>  <!-- Adjust size to fit box top -->
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://8522057232544/materials/scripts</uri>
+            <uri>model://8522057232544/materials/textures</uri>
+            <name>8522057232544</name>
+          </script>
+        </material>
+      </visual>
+
+      <!-- Physics Settings -->
+      <gravity>1</gravity>
+      <self_collide>false</self_collide>  <!-- No self-collision -->
+      <kinematic>false</kinematic>  <!-- Make the object dynamic -->
+      <enable_wind>false</enable_wind>
+    </link>
+
+    <!-- Model Configuration -->
+    <pose>-1.0 0.4 0.8 0 0 3.14</pose>  <!-- Initial spawn location -->
+    <allow_auto_disable>false</allow_auto_disable>  <!-- Keep physics active -->
+  </model>
+</sdf>

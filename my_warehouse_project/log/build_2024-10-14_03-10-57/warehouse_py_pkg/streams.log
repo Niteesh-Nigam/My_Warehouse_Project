@@ -1,0 +1,21 @@
+[0.895s] Invoking command in '/home/nitzz/my_warehouse_project/src/warehouse_py_pkg': PYTHONPATH=/home/nitzz/my_warehouse_project/build/warehouse_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_py_pkg build --build-base /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build install --record /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/install.log --single-version-externally-managed install_data
+[1.086s] running egg_info
+[1.087s] writing ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/entry_points.txt
+[1.087s] writing requirements to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/top_level.txt
+[1.088s] reading manifest file '../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/SOURCES.txt'
+[1.089s] writing manifest file '../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info/SOURCES.txt'
+[1.089s] running build
+[1.089s] running build_py
+[1.089s] running install
+[1.089s] running install_lib
+[1.090s] running install_data
+[1.090s] running install_egg_info
+[1.091s] removing '/home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.092s] Copying ../../build/warehouse_py_pkg/warehouse_py_pkg.egg-info to /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages/warehouse_py_pkg-0.0.0-py3.10.egg-info
+[1.092s] running install_scripts
+[1.106s] Installing process_controller script to /home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/warehouse_py_pkg
+[1.106s] writing list of installed files to '/home/nitzz/my_warehouse_project/build/warehouse_py_pkg/install.log'
+[1.125s] Invoked command in '/home/nitzz/my_warehouse_project/src/warehouse_py_pkg' returned '0': PYTHONPATH=/home/nitzz/my_warehouse_project/build/warehouse_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_py_pkg build --build-base /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/build install --record /home/nitzz/my_warehouse_project/build/warehouse_py_pkg/install.log --single-version-externally-managed install_data

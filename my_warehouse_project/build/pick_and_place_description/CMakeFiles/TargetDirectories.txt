@@ -1,0 +1,9 @@
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/uninstall.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/pick_and_place_description_uninstall.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/test.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/edit_cache.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/rebuild_cache.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/list_install_components.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/install.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/install/local.dir
+/home/nitzz/my_warehouse_project/build/pick_and_place_description/CMakeFiles/install/strip.dir

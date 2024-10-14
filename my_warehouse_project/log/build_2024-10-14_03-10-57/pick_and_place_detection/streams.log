@@ -1,0 +1,21 @@
+[0.897s] Invoking command in '/home/nitzz/my_warehouse_project/src/pick_and_place/pick_and_place_detection': PYTHONPATH=/home/nitzz/my_warehouse_project/build/pick_and_place_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/pick_and_place_detection build --build-base /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build install --record /home/nitzz/my_warehouse_project/build/pick_and_place_detection/install.log --single-version-externally-managed install_data
+[1.089s] running egg_info
+[1.090s] writing ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/PKG-INFO
+[1.090s] writing dependency_links to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/dependency_links.txt
+[1.090s] writing entry points to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/entry_points.txt
+[1.090s] writing requirements to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/requires.txt
+[1.090s] writing top-level names to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/top_level.txt
+[1.091s] reading manifest file '../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/SOURCES.txt'
+[1.092s] writing manifest file '../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/SOURCES.txt'
+[1.092s] running build
+[1.092s] running build_py
+[1.092s] running install
+[1.092s] running install_lib
+[1.093s] running install_data
+[1.093s] running install_egg_info
+[1.094s] removing '/home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[1.094s] Copying ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info to /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection-0.0.0-py3.10.egg-info
+[1.095s] running install_scripts
+[1.108s] Installing object_pose_detector script to /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/pick_and_place_detection
+[1.109s] writing list of installed files to '/home/nitzz/my_warehouse_project/build/pick_and_place_detection/install.log'
+[1.126s] Invoked command in '/home/nitzz/my_warehouse_project/src/pick_and_place/pick_and_place_detection' returned '0': PYTHONPATH=/home/nitzz/my_warehouse_project/build/pick_and_place_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/pick_and_place_detection build --build-base /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build install --record /home/nitzz/my_warehouse_project/build/pick_and_place_detection/install.log --single-version-externally-managed install_data

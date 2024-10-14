@@ -1,0 +1,9 @@
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/uninstall.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/my_conveyorbelt_uninstall.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/test.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/edit_cache.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/rebuild_cache.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/list_install_components.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/install.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/install/local.dir
+/home/nitzz/my_warehouse_project/build/my_conveyorbelt/CMakeFiles/install/strip.dir

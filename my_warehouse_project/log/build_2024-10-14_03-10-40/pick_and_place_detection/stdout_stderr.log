@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info
+writing ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/PKG-INFO
+writing dependency_links to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/dependency_links.txt
+writing entry points to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/entry_points.txt
+writing requirements to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/requires.txt
+writing top-level names to ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/top_level.txt
+writing manifest file '../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/SOURCES.txt'
+reading manifest file '../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/SOURCES.txt'
+writing manifest file '../../../build/pick_and_place_detection/pick_and_place_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build
+creating /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build/lib
+creating /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build/lib/pick_and_place_detection
+copying pick_and_place_detection/__init__.py -> /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build/lib/pick_and_place_detection
+copying pick_and_place_detection/object_pose_detector.py -> /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build/lib/pick_and_place_detection
+running install
+running install_lib
+creating /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection
+copying /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build/lib/pick_and_place_detection/__init__.py -> /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection
+copying /home/nitzz/my_warehouse_project/build/pick_and_place_detection/build/lib/pick_and_place_detection/object_pose_detector.py -> /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection
+byte-compiling /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection/object_pose_detector.py to object_pose_detector.cpython-310.pyc
+running install_data
+creating /home/nitzz/my_warehouse_project/install/pick_and_place_detection/share/ament_index
+creating /home/nitzz/my_warehouse_project/install/pick_and_place_detection/share/ament_index/resource_index
+creating /home/nitzz/my_warehouse_project/install/pick_and_place_detection/share/ament_index/resource_index/packages
+copying resource/pick_and_place_detection -> /home/nitzz/my_warehouse_project/install/pick_and_place_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/nitzz/my_warehouse_project/install/pick_and_place_detection/share/pick_and_place_detection
+running install_egg_info
+Copying ../../../build/pick_and_place_detection/pick_and_place_detection.egg-info to /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/python3.10/site-packages/pick_and_place_detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing object_pose_detector script to /home/nitzz/my_warehouse_project/install/pick_and_place_detection/lib/pick_and_place_detection
+writing list of installed files to '/home/nitzz/my_warehouse_project/build/pick_and_place_detection/install.log'

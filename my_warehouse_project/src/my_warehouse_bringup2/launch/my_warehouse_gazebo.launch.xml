@@ -1,0 +1,57 @@
+<launch>
+    <!-- Define the path to the camera URDF file -->
+    <let name="camera_urdf_path" 
+         value="$(find-pkg-share warehouse_camera)/urdf/camera_setup.urdf.xacro" /> 
+         
+    <let name="conveyorbelt_sdf_path" 
+         value="$(find-pkg-share my_conveyorbelt)/models/conveyorbeltt/conveyorbeltt.sdf" /> 
+       
+    <let name="storage_cart_sdf_path" 
+         value="$(find-pkg-share my_conveyorbelt)/models/conveyorbeltt/storage_cart.sdf" /> 
+         
+    <let name="belt_sensor_sdf_path" 
+         value="$(find-pkg-share my_conveyorbelt)/models/conveyorbeltt/red_plane_sensor.sdf" /> 
+
+    <!-- Define the path to the RViz configuration file -->
+    <let name="rviz_config_path" 
+         value="$(find-pkg-share warehouse_camera)/rviz/urdf_config.rviz" />     
+
+    <!-- Publish the robot description to a new topic /camera_robot_description to avoid clashes -->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <param name="robot_description"
+               value="$(command 'xacro $(var camera_urdf_path)')" />
+        <remap from="/robot_description" to="/camera_robot_description"/>
+    </node>           
+
+   <!-- Launch Gazebo with the warehouse world -->
+   <!-- <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
+        <arg name="world" value="$(find-pkg-share my_warehouse_bringup2)/worlds/my_warehouse_world.world" /> 
+    </include>-->
+
+    <!-- Include the box_barcode launch file -->
+    <!-- <include file="$(find-pkg-share my_warehouse_bringup2)/launch/box_barcode.launch.py" /> -->
+
+    <!-- Spawn the camera model at the specified location -->
+    <node pkg="gazebo_ros" exec="spawn_entity.py"
+          args="-topic /camera_robot_description -entity my_camera -x -0.981343 -y 1.151857 -z 0.124554 -R 0.0 -P 0.0 -Y -3.157000" />
+          
+    <node pkg="gazebo_ros" exec="spawn_entity.py"
+          args="-entity conveyor_belt -file $(var conveyorbelt_sdf_path)" 
+          output="screen" />
+          <!-- -x -0.6 -y 0.5 -z 0.0 -R 1.571 -P 0.0 -Y 0" -->
+          
+    <node pkg="gazebo_ros" exec="spawn_entity.py"
+          args="-entity storage_cart -file $(var storage_cart_sdf_path)" 
+          output="screen" />
+          
+    <node pkg="gazebo_ros" exec="spawn_entity.py"
+          args="-entity belt_sensor -file $(var belt_sensor_sdf_path)" 
+          output="screen" />
+          
+    <!-- Launch the barcode reader node -->
+    <node pkg="barcode_stand_reader" exec="camera_cv2"/>
+    
+    <!-- Launch RViz2 with the specified configuration -->
+    <!-- <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var rviz_config_path)"/> -->
+</launch>
+

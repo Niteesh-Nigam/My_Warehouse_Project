@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nitzz/my_warehouse_project/build/my_conveyorbelt
+-- Install configuration: ""
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/conveyorbeltt.sdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/storage_cart.sdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/conveyorbeltt (copy).sdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes/base_link.STL
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes/hidden_layer.STL
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/model.config
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/red_plane_sensor.sdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/worlds
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/worlds/conveyorbeltt.world
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf/box_model_0.sdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf/box.urdf
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/my_conveyorbelt
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/my_conveyorbelt
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/ament_prefix_path.sh
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/ament_prefix_path.dsv
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/path.sh
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/path.dsv
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.bash
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.sh
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.zsh
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.dsv
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/package.dsv
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/packages/my_conveyorbelt
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/cmake/my_conveyorbeltConfig.cmake
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/cmake/my_conveyorbeltConfig-version.cmake
+-- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/package.xml

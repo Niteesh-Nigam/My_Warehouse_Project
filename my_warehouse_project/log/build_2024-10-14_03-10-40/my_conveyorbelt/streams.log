@@ -1,0 +1,59 @@
+[0.037s] Invoking command in '/home/nitzz/my_warehouse_project/build/my_conveyorbelt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake /home/nitzz/my_warehouse_project/src/my_conveyorbelt -DCMAKE_INSTALL_PREFIX=/home/nitzz/my_warehouse_project/install/my_conveyorbelt
+[0.468s] -- The C compiler identification is GNU 9.5.0
+[0.469s] -- The CXX compiler identification is GNU 9.5.0
+[0.469s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.469s] -- Detecting C compile features
+[0.469s] -- Detecting C compile features - done
+[0.469s] -- Detecting CXX compiler ABI info
+[0.469s] -- Detecting CXX compiler ABI info - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.469s] -- Detecting CXX compile features
+[0.469s] -- Detecting CXX compile features - done
+[0.469s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.570s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.641s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.642s] -- Added test 'lint_cmake' to check CMake code style
+[0.643s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.645s] -- Added test 'xmllint' to check XML markup files
+[0.647s] -- Configuring done
+[0.649s] -- Generating done
+[0.650s] -- Build files have been written to: /home/nitzz/my_warehouse_project/build/my_conveyorbelt
+[0.694s] Invoked command in '/home/nitzz/my_warehouse_project/build/my_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake /home/nitzz/my_warehouse_project/src/my_conveyorbelt -DCMAKE_INSTALL_PREFIX=/home/nitzz/my_warehouse_project/install/my_conveyorbelt
+[0.695s] Invoking command in '/home/nitzz/my_warehouse_project/build/my_conveyorbelt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --build /home/nitzz/my_warehouse_project/build/my_conveyorbelt -- -j16 -l16
+[0.726s] Invoked command in '/home/nitzz/my_warehouse_project/build/my_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --build /home/nitzz/my_warehouse_project/build/my_conveyorbelt -- -j16 -l16
+[0.749s] Invoking command in '/home/nitzz/my_warehouse_project/build/my_conveyorbelt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --install /home/nitzz/my_warehouse_project/build/my_conveyorbelt
+[0.755s] -- Install configuration: ""
+[0.755s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models
+[0.755s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt
+[0.755s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/conveyorbeltt.sdf
+[0.757s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/storage_cart.sdf
+[0.758s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/conveyorbeltt (copy).sdf
+[0.758s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes
+[0.758s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes/base_link.STL
+[0.760s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/meshes/hidden_layer.STL
+[0.760s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/model.config
+[0.761s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/models/conveyorbeltt/red_plane_sensor.sdf
+[0.761s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/worlds
+[0.762s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/worlds/conveyorbeltt.world
+[0.762s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf
+[0.762s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf/box_model_0.sdf
+[0.762s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/urdf/box.urdf
+[0.762s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/package_run_dependencies/my_conveyorbelt
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/parent_prefix_path/my_conveyorbelt
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/ament_prefix_path.sh
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/ament_prefix_path.dsv
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/path.sh
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/environment/path.dsv
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.bash
+[0.763s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.sh
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.zsh
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/local_setup.dsv
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/package.dsv
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/ament_index/resource_index/packages/my_conveyorbelt
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/cmake/my_conveyorbeltConfig.cmake
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/cmake/my_conveyorbeltConfig-version.cmake
+[0.764s] -- Installing: /home/nitzz/my_warehouse_project/install/my_conveyorbelt/share/my_conveyorbelt/package.xml
+[0.783s] Invoked command in '/home/nitzz/my_warehouse_project/build/my_conveyorbelt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitzz/Warehouse_Project/install/my_package:/home/nitzz/Warehouse_Project/install/barcode_box_creation:/home/nitzz/my_warehouse_project/install/warehouse_py_pkg:/home/nitzz/my_warehouse_project/install/pick_and_place_detection:/home/nitzz/my_warehouse_project/install/barcode_stand_reader:/home/nitzz/gazebo_project/install/warehouse_py_pkg:/home/nitzz/ros2_ws/install/webots_ros2_msgs:/opt/ros/humble /usr/bin/cmake --install /home/nitzz/my_warehouse_project/build/my_conveyorbelt
